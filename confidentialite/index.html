@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Politique de confidentialité de l’application ArtiSpot.">
+    <title>Politique de confidentialité — ArtiSpot</title>
+    <link rel="icon" href="../assets/artispot-launcher.png">
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="../" aria-label="Accueil ArtiSpot">
+          <img src="../assets/artispot-launcher.png" alt="Logo ArtiSpot">
+          <span>ArtiSpot</span>
+        </a>
+        <nav class="site-nav" aria-label="Navigation principale">
+          <a href="../assistance/">Assistance</a>
+          <a href="./" aria-current="page">Confidentialité</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <article class="document">
+        <header class="document-header">
+          <p class="eyebrow">Vos données</p>
+          <h1>Politique de confidentialité</h1>
+          <p class="lead">
+            Cette politique explique de façon claire comment ArtiSpot utilise
+            les données nécessaires au fonctionnement de l’application.
+          </p>
+          <p class="meta">Dernière mise à jour : 4 octobre 2026</p>
+        </header>
+
+        <h2>1. Responsable du traitement</h2>
+        <p>
+          Le responsable du traitement des données utilisées par ArtiSpot est
+          <strong>Mathieu Abounaidane – ArtiSpot</strong>.
+        </p>
+        <p>
+          Contact :
+          <a href="mailto:contact.artispot@gmail.com">contact.artispot@gmail.com</a>.
+        </p>
+
+        <h2>2. Données utilisées par ArtiSpot</h2>
+
+        <h3>Session invitée et identifiant Firebase</h3>
+        <p>
+          Au premier lancement, ArtiSpot crée automatiquement une session
+          invitée avec Firebase Authentication. Un identifiant utilisateur
+          unique, appelé UID Firebase, permet d’associer les favoris, les spots
+          créés et les droits de modification à la bonne session. Cette session
+          invitée ne nécessite ni nom ni adresse e-mail.
+        </p>
+
+        <h3>Compte enregistré</h3>
+        <p>
+          Si vous choisissez de créer un compte, Firebase Authentication traite
+          votre adresse e-mail, votre mot de passe et, si vous le renseignez,
+          votre surnom. Le mot de passe est traité par Firebase Authentication ;
+          ArtiSpot ne l’enregistre pas dans les documents de spots ou de favoris.
+        </p>
+
+        <h3>Localisation précise</h3>
+        <p>
+          Avec votre autorisation, ArtiSpot accède à la position précise de
+          l’appareil afin de vous situer sur la carte, d’afficher les spots
+          proches et de positionner un nouveau spot. La position n’est pas
+          suivie ni enregistrée en continu par ArtiSpot.
+        </p>
+        <p>
+          Lorsque vous créez volontairement un spot à votre position ou à un
+          point choisi sur la carte, les coordonnées de ce point sont
+          enregistrées avec le spot et deviennent visibles aux utilisateurs de
+          l’application.
+        </p>
+
+        <h3>Spots et contenu fourni par les utilisateurs</h3>
+        <p>Lorsque vous partagez un spot, ArtiSpot peut enregistrer :</p>
+        <ul>
+          <li>le nom et la description du spot ;</li>
+          <li>ses coordonnées géographiques ;</li>
+          <li>les informations pratiques sélectionnées dans le formulaire ;</li>
+          <li>la date de création et le statut du spot ;</li>
+          <li>votre UID Firebase en tant que créateur ;</li>
+          <li>jusqu’à trois photos choisies ou prises par vous.</li>
+        </ul>
+        <p>
+          Les spots et leurs photos ont vocation à être visibles par les autres
+          utilisateurs. Évitez d’envoyer une photo contenant une personne
+          identifiable, une plaque d’immatriculation ou une information privée
+          sans autorisation appropriée. L’application actuelle accepte des
+          images, pas des vidéos.
+        </p>
+
+        <h3>Favoris</h3>
+        <p>
+          Les identifiants des spots ajoutés aux favoris sont enregistrés dans
+          Cloud Firestore sous votre UID Firebase. Vos favoris sont privés et ne
+          sont accessibles que depuis votre session.
+        </p>
+
+        <h3>Données techniques traitées par les prestataires</h3>
+        <p>
+          Le fonctionnement des services en ligne implique le traitement de
+          données techniques, telles que l’adresse IP, les informations de
+          requête, l’appareil ou les journaux de sécurité, par les prestataires
+          concernés. ArtiSpot n’ajoute aucun outil d’analytics volontaire au
+          sein de l’application.
+        </p>
+
+        <h2>3. Pourquoi ces données sont-elles utilisées ?</h2>
+        <p>Les données sont utilisées uniquement pour :</p>
+        <ul>
+          <li>authentifier une session invitée ou un compte enregistré ;</li>
+          <li>afficher la carte et les spots pertinents autour de vous ;</li>
+          <li>enregistrer, afficher et gérer les spots partagés ;</li>
+          <li>héberger et afficher les photos associées aux spots ;</li>
+          <li>enregistrer vos favoris ;</li>
+          <li>protéger les données et empêcher les modifications non autorisées ;</li>
+          <li>répondre aux demandes d’assistance et d’exercice de vos droits.</li>
+        </ul>
+
+        <h2>4. Prestataires et services externes</h2>
+        <p>ArtiSpot utilise les services suivants :</p>
+        <ul>
+          <li>
+            <strong>Google Firebase</strong> : Firebase Authentication pour les
+            sessions et comptes, Cloud Firestore pour les spots et favoris, et
+            Firebase Storage pour les photos ;
+          </li>
+          <li><strong>Esri</strong> : chargement du fond de carte classique et satellite ;</li>
+          <li>
+            <strong>OpenStreetMap/Nominatim</strong> : recherche d’une ville saisie par l’utilisateur ;
+          </li>
+          <li>
+            <strong>Google Maps ou Waze</strong> : uniquement lorsque vous
+            choisissez d’ouvrir un itinéraire vers un spot ;
+          </li>
+          <li><strong>GitHub Pages</strong> : hébergement de ce site public.</li>
+        </ul>
+        <p>
+          Ces prestataires appliquent leurs propres politiques de
+          confidentialité et peuvent traiter des données techniques nécessaires
+          à la fourniture de leurs services.
+        </p>
+
+        <h2>5. Publicité, suivi et vente de données</h2>
+        <p>
+          ArtiSpot n’affiche aucune publicité, n’utilise aucun système de suivi
+          publicitaire et ne vend ni ne loue les données personnelles à des
+          courtiers en données. Aucun outil d’analytics n’est volontairement
+          intégré dans l’application ou sur ce site.
+        </p>
+        <p>
+          Ce site statique n’installe aucun cookie ArtiSpot et ne contient aucun
+          script de suivi. Comme tout hébergeur web, GitHub peut néanmoins
+          traiter des journaux techniques nécessaires à la sécurité et à la
+          disponibilité de GitHub Pages.
+        </p>
+
+        <h2>6. Conservation des données</h2>
+        <p>
+          ArtiSpot ne met actuellement en œuvre aucune suppression automatique
+          fondée sur une durée fixe. Les données d’un compte sont conservées
+          tant que le compte ou la session existe et que leur conservation est
+          nécessaire au fonctionnement du service.
+        </p>
+        <p>
+          Un spot reste enregistré jusqu’à sa suppression par son créateur ou
+          au traitement d’une demande de suppression. Certaines données
+          techniques peuvent être conservées temporairement par les prestataires
+          selon leurs propres délais de sécurité, de journalisation et de sauvegarde.
+        </p>
+
+        <h2>7. Suppression d’un spot, des données ou du compte</h2>
+        <p>
+          Le créateur d’un spot peut supprimer ce spot depuis sa fiche lorsqu’il
+          utilise la session Firebase qui l’a créé.
+        </p>
+        <div class="notice">
+          <strong>Situation actuelle :</strong> l’application ne propose pas
+          encore de bouton permettant de supprimer directement l’intégralité
+          d’un compte Firebase. Cette fonction doit être ajoutée à l’application.
+        </div>
+        <p>
+          En attendant, vous pouvez demander la suppression de votre compte, de
+          vos spots, de vos photos, de vos favoris ou d’autres données vous
+          concernant en contactant ArtiSpot à l’adresse indiquée dans la présente
+          politique. Des informations complémentaires pourront être demandées
+          afin de vérifier votre identité et de retrouver les données concernées.
+        </p>
+
+        <h2>8. Vos droits</h2>
+        <p>
+          Selon la réglementation applicable, notamment le Règlement général sur
+          la protection des données dans l’Union européenne, vous pouvez demander :
+        </p>
+        <ul>
+          <li>l’accès à vos données personnelles ;</li>
+          <li>la rectification de données inexactes ;</li>
+          <li>l’effacement de vos données ;</li>
+          <li>la limitation ou l’opposition à certains traitements ;</li>
+          <li>la portabilité des données lorsque ce droit est applicable.</li>
+        </ul>
+        <p>
+          Vous pouvez également introduire une réclamation auprès de la
+          <a href="https://www.cnil.fr/fr/plaintes" rel="noopener noreferrer">Commission nationale de l’informatique et des libertés (CNIL)</a>.
+        </p>
+
+        <h2>9. Sécurité</h2>
+        <p>
+          ArtiSpot utilise Firebase Authentication ainsi que des règles de
+          sécurité Firestore et Storage afin de limiter les modifications et
+          suppressions aux utilisateurs autorisés. Aucun service connecté ne
+          peut toutefois garantir une sécurité absolue.
+        </p>
+
+        <h2>10. Évolution de cette politique</h2>
+        <p>
+          Cette politique pourra être mise à jour si les fonctionnalités ou les
+          prestataires d’ArtiSpot évoluent. La date affichée en haut de la page
+          permettra d’identifier la version applicable.
+        </p>
+
+        <h2>11. Contact</h2>
+        <p>
+          Pour toute question relative à la confidentialité ou pour exercer vos
+          droits, contactez :
+          <a href="mailto:contact.artispot@gmail.com">contact.artispot@gmail.com</a>.
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>© 2026 Mathieu Abounaidane – ArtiSpot</span>
+        <div class="footer-links">
+          <a href="../">Accueil</a>
+          <a href="../assistance/">Assistance</a>
+          <a href="mailto:contact.artispot@gmail.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
